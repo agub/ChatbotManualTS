@@ -134,9 +134,7 @@ function App() {
 				directTo("https://www.softbank.jp/mobile/products/");
 				break;
 			case QUESTIONS.QUESTION_1_3:
-				setConversation((prev) => [...prev, QUESTIONS.QUESTION_1_3]);
-				loadingConversation(CONVERSATION.CONVERSATION_1_3, null);
-				directTo("https://www.softbank.jp/mobile/products/");
+				setQuestions(Additional);
 				break;
 			//----------------------- QUESTION 2s--------------------
 			case QUESTIONS.QUESTION_2_0:

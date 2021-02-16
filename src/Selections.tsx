@@ -3,6 +3,7 @@ import { Button, Container } from "./Selections.styled";
 
 type Props = {
 	questions: string[] | null;
+
 	clickHandler: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
 };
 

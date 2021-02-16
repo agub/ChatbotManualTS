@@ -19,7 +19,7 @@ export const Container = styled.div`
 	}
 `;
 export const List = styled.div`
-	/* background-color: gainsboro; */
+	display: flex;
 	background-color: palevioletred;
 	padding: 13px 10px;
 	border-radius: 4px;
@@ -28,12 +28,6 @@ export const List = styled.div`
 	font-size: 13px;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
 		sans-serif;
-	/* margin-bottom: 0.8em; */
-	display: flex;
-	/* margin-right: auto; */
-	/* :nth-child(even) {
-		margin-left: auto;
-	} */
 `;
 
 export const Img = styled.img`

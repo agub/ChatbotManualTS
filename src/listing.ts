@@ -12,8 +12,8 @@ export enum QUESTIONS {
 	/// QUESTION 1s
 	QUESTION_1_0 = "製品◯◯について",
 	QUESTION_1_1 = "製品◯1について",
-	QUESTION_1_2 = "製品◯２について",
-	QUESTION_1_3 = "その他の製品について",
+	QUESTION_1_2 = "その他の製品について",
+	QUESTION_1_3 = "最初の質問に戻る",
 
 	/// QUESTION 2s
 	QUESTION_2_0 = "製作のことについて",
@@ -34,11 +34,11 @@ export enum QUESTIONS {
 	QUESTION_1_1_0 = "◯◯1製品のページへ飛ぶ",
 	QUESTION_1_1_1 = "最初の質問に戻る",
 	//3
-	QUESTION_1_2_0 = "◯◯1製品のページへ飛ぶ",
+	QUESTION_1_2_0 = "その他の商品ページへ飛ぶ",
 	QUESTION_1_2_1 = "最初の質問に戻る",
 	//4
-	QUESTION_1_3_0 = "その他の商品ページへ飛ぶ",
-	QUESTION_1_3_1 = "最初の質問に戻る",
+	// QUESTION_1_3_0 = "その他の商品ページへ飛ぶ",
+	// QUESTION_1_3_1 = "最初の質問に戻る",
 	//--------------------------------------------------------
 	//QUESTION 2_
 	// 1
@@ -67,7 +67,7 @@ export enum QUESTIONS {
 }
 
 export enum CONVERSATION {
-	CONVERSATION_FIRST = "このサイトへようこそ！ご用件はなんでしょうか？",
+	CONVERSATION_FIRST = "HELLO!! ご用件はなんでしょうか？",
 
 	//CHAT_Q
 	CONVERSATION_0 = "予約ページのボタンを押していただくと予約へ行きます！",

@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Img, List } from "./Chat.styled";
+
+import { Fade } from "react-awesome-reveal";
 import chatBotImg from "./image/chat-bot.png";
 import userIcon from "./image/User Icon.jpeg";
 
@@ -27,10 +29,26 @@ const Chat: React.FC<Props> = ({ conversation, isLoading }) => {
 						width='50px'
 						height='50px'
 					/>
-					<List>{string}</List>
+					<Fade>
+						<List>{string}</List>
+					</Fade>
 				</Container>
 			))}
-			{isLoading ? <p>....</p> : null}
+			{isLoading ? (
+				<Container>
+					<Img
+						className='img'
+						src={chatBotImg}
+						alt=''
+						width='50px'
+						height='50px'
+					/>
+
+					<Fade>
+						<List>....</List>
+					</Fade>
+				</Container>
+			) : null}
 		</div>
 	);
 };
