@@ -16,15 +16,25 @@ import {
 	QUESTIONS3_2_options,
 } from "./listing";
 
+import Selections from "./Selections";
+import Chat from "./Chat";
+
+import { Container } from "./App.styled";
+
+import { createGlobalStyle } from "styled-components";
+
 function App() {
 	const [isLoading, setIsLoading] = useState(false);
 	const [conversation, setConversation] = useState<string[]>([]);
-	// const [link, setLink] = useState<string>("");
 	const [questions, setQuestions] = useState<string[] | null>([]);
 
-	const startChatBot = () => {
-		setQuestions(FIRST_QUESTIONS);
-	};
+	const GlobalStyle = createGlobalStyle`
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+`;
 
 	const initialize = () => {
 		setConversation([CONVERSATION.CONVERSATION_FIRST]);
@@ -52,8 +62,7 @@ function App() {
 	};
 
 	useEffect(() => {
-		const unsub = startChatBot();
-		setConversation([CONVERSATION.CONVERSATION_FIRST]);
+		const unsub = initialize();
 		return unsub;
 	}, []);
 
@@ -183,7 +192,6 @@ function App() {
 				break;
 
 			//THIRD QUESTIONS
-
 			//----------------------- QUESTION 0_0-------------------
 			//NONE
 			//----------------------- QUESTION 1_0-------------------
@@ -252,20 +260,11 @@ function App() {
 	};
 
 	return (
-		<div className='App'>
-			{conversation.map((string) => (
-				<p key={string}>{string}</p>
-			))}
-			{isLoading ? <p>....</p> : null}
-			{questions?.map((question) => (
-				<button key={question} value={question} onClick={clickHandler}>
-					{question}
-				</button>
-			))}
-			{/* <button onClick={selectedAnswer}>{questions}</button> */}
-
-			{/* <Selections questions={questions} /> */}
-		</div>
+		<Container className='App'>
+			<GlobalStyle />
+			<Chat conversation={conversation} isLoading={isLoading} />
+			<Selections questions={questions} clickHandler={clickHandler} />
+		</Container>
 	);
 }
 
