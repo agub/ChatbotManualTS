@@ -83,7 +83,7 @@ export enum CONVERSATION {
 	CONVERSATION_1_0 = "かしこまりました。製品◯◯の詳細へ移動します。",
 	CONVERSATION_1_1 = "かしこまりました。製品◯◯1の詳細へ移動します。",
 	CONVERSATION_1_2 = "かしこまりました。製品◯◯2の詳細へ移動します。",
-	CONVERSATION_1_3 = "その他の製品へ移動します。",
+	CONVERSATION_1_3 = "その他の製品詳細のページへ移動します。",
 	// CHAT_Q_2
 	CONVERSATION_2_0 = "製作のことについては下のボタンからお問い合わせください",
 	CONVERSATION_2_1 = "出店店舗については下のボタンからお問い合わせください",

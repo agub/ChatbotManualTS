@@ -250,7 +250,6 @@ function App() {
 				setQuestions(Additional);
 		}
 	};
-	console.log(conversation);
 
 	return (
 		<div className='App'>
