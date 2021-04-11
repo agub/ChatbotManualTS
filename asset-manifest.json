@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/ChatbotManualTS/static/js/main.6f3dd7c8.chunk.js",
+    "main.js.map": "/ChatbotManualTS/static/js/main.6f3dd7c8.chunk.js.map",
+    "runtime-main.js": "/ChatbotManualTS/static/js/runtime-main.7be024bd.js",
+    "runtime-main.js.map": "/ChatbotManualTS/static/js/runtime-main.7be024bd.js.map",
+    "static/js/2.92450d86.chunk.js": "/ChatbotManualTS/static/js/2.92450d86.chunk.js",
+    "static/js/2.92450d86.chunk.js.map": "/ChatbotManualTS/static/js/2.92450d86.chunk.js.map",
+    "index.html": "/ChatbotManualTS/index.html",
+    "static/js/2.92450d86.chunk.js.LICENSE.txt": "/ChatbotManualTS/static/js/2.92450d86.chunk.js.LICENSE.txt",
+    "static/media/chat-bot.c2cd45fb.png": "/ChatbotManualTS/static/media/chat-bot.c2cd45fb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7be024bd.js",
+    "static/js/2.92450d86.chunk.js",
+    "static/js/main.6f3dd7c8.chunk.js"
+  ]
+}
