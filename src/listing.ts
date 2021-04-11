@@ -70,20 +70,19 @@ export enum CONVERSATION {
 	CONVERSATION_FIRST = "HELLO!! ご用件はなんでしょうか？",
 
 	//CHAT_Q
-	CONVERSATION_0 = "予約ページのボタンを押していただくと予約へ行きます！",
+	CONVERSATION_0 = "かしこまりました。下の予約ページのボタンを押していただくと予約へ行きます！",
 	CONVERSATION_1 = "どちらの商品についてでしょうか？",
 	CONVERSATION_2 = "かしこまりました。ご用件は教えてください？",
 	CONVERSATION_3 = "かしこまりました。ご用件は教えてください？",
 
 	//CHAT_Q_0
-	CONVERSATION_0_0 = "かしこまりました。予約ページへ移動します。",
+	CONVERSATION_0_0 = "かしこまりました。ただいま予約ページへ移動します。",
 
 	//CHAT_Q_1
 
 	CONVERSATION_1_0 = "かしこまりました。製品◯◯の詳細へ移動します。",
 	CONVERSATION_1_1 = "かしこまりました。製品◯◯1の詳細へ移動します。",
-	CONVERSATION_1_2 = "かしこまりました。製品◯◯2の詳細へ移動します。",
-	CONVERSATION_1_3 = "その他の製品詳細のページへ移動します。",
+	CONVERSATION_1_2 = "その他の製品詳細のページへ移動します。",
 	// CHAT_Q_2
 	CONVERSATION_2_0 = "製作のことについては下のボタンからお問い合わせください",
 	CONVERSATION_2_1 = "出店店舗については下のボタンからお問い合わせください",

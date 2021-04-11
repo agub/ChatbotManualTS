@@ -45,7 +45,7 @@ function App() {
 		const Alink = () => {
 			window.location.href = link;
 		};
-		setTimeout(Alink, 1000);
+		setTimeout(Alink, 2000);
 	};
 
 	const loadingConversation = (
