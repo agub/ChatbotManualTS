@@ -262,7 +262,6 @@ function App() {
 			<GlobalStyle />
 			<Chat conversation={conversation} isLoading={isLoading} />
 			<Selections questions={questions} clickHandler={clickHandler} />
-			<h1>afdafs</h1>
 		</Container>
 	)
 }
